@@ -5,11 +5,10 @@ const Button = (props) => {
   return (
     <input
       type="button"
-      onClick = {props.handleClick}
       value={props.label}
+      onClick = {props.handleClick}
     />
   );
 }
   
-// Export our button component.
 export default Button;
